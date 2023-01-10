@@ -33,8 +33,10 @@ Optional environment variables for debugging:
 ## Build the container image
 
 ```
-docker build -t p1toinflux:1.0 .
+docker build -t p1toinflux:1.0.0 .
 ```
+
+or [download from Dockerhub](https://hub.docker.com/repository/docker/jaccol/p1toinflux/general).  
 
 ## Run the container
 
@@ -58,7 +60,7 @@ P1METER_HOSTNAME=p1.mydomain
 
 Execute the container with:
 ```
-docker run -d --env-file envfile p1toinflux:1.0
+docker run -d --env-file envfile p1toinflux:1.0.0
 ```
 
 ## Python requirements
